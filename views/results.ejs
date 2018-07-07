@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bookify</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1>Bookify</h1>
+        <p class="header">With all the time you have, try reading these books...</p>
+        <div id="grid">
+            <div class="book">
+                <p><strong><%=info[0].volumeInfo.title%></strong></p>
+                <img src="<%=info[0].volumeInfo.imageLinks.smallThumbnail %>">
+            </div>
+            <div class="book">
+                <p><strong><%=info[1].volumeInfo.title%></strong></p>
+                <img src="<%=info[1].volumeInfo.imageLinks.smallThumbnail %>">
+            </div>
+            <div class="book">
+                <p><strong><%=info[2].volumeInfo.title%></strong></p>
+                <img src="<%=info[2].volumeInfo.imageLinks.smallThumbnail %>">
+            </div>
+            <div class="book">
+                <p><strong><%=info[3].volumeInfo.title%></strong></p>
+                <img src="<%=info[3].volumeInfo.imageLinks.smallThumbnail %>">
+            </div>
+            <div class="book">
+                <p><strong><%=info[4].volumeInfo.title%></strong></p>
+                <img src="<%=info[4].volumeInfo.imageLinks.smallThumbnail %>">
+            </div>
+            <div class="book">
+                <p><strong><%=info[5].volumeInfo.title%></strong></p>
+                <img src="<%=info[5].volumeInfo.imageLinks.smallThumbnail %>">
+            </div>
+            </ul>
+        </div>
+    </body>
+</html>

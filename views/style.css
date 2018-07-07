@@ -1,0 +1,28 @@
+* {
+    font-family: "Palatino";
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    
+}
+
+.header, form {
+    text-align: center;
+}
+
+.footer {
+    font-size: x-small;
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.book {
+    color: blue;
+}
